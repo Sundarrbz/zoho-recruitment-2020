@@ -1,8 +1,9 @@
 #include <stdio.h>
 int main() {
-   int rows, i, j,k,count=4, number = 1;
+   int rows, i, j,k,count, number = 1;
    printf("Enter the number of rows: ");
    scanf("%d", &rows);
+   count=rows;
    for (i = 1; i <= rows; i++) {
       for(k=count;k>=1;k--)
       {
